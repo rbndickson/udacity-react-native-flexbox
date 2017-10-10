@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <View style={[styles.box, {flex: 1}]}/>
-        <View style={[styles.box, {flex: 2}]}/>
+        <View style={[styles.box, {flex: 2, alignSelf: 'flex-start'}]}/>
         <View style={[styles.box, {flex: 1}]}/>
       </View>
     )
