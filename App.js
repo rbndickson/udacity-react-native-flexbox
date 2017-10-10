@@ -16,6 +16,8 @@ class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    // flexDirection defaults to 'column'
+    flexDirection: 'row',
     // justifyContent: 'flex-start',
     // justifyContent: 'center',
     // justifyContent: 'flex-end',
