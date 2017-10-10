@@ -16,6 +16,11 @@ class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    // justifyContent: 'flex-start',
+    // justifyContent: 'center',
+    // justifyContent: 'flex-end',
+    // justifyContent: 'space-between',
+    justifyContent: 'space-around',
   },
   box: {
     height: 50,
