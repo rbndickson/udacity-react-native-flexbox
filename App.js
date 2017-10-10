@@ -16,7 +16,7 @@ class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // flexDirection defaults to 'column'
+    // flexDirection defaults to 'column' in React Native (but on the web it defaults to 'row')
     flexDirection: 'row',
     // justifyContent: 'flex-start',
     justifyContent: 'center',
